@@ -18,8 +18,8 @@ on:
         required: true
         type: string
       port_context:
-        required: true
         description: includes blueprint, run ID, and entity identifier from Port.
+        required: true
 jobs:
   provision-ec2:
     runs-on: ubuntu-latest
